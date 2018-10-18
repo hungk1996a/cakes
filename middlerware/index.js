@@ -1,0 +1,1 @@
+exports.checkCake = require('./cakeRequest');

@@ -1,0 +1,7 @@
+const CakeFactory = require('../cake/CakeFactory');
+
+module.exports = (req, res, next) => {
+  const cakeFactory = new CakeFactory();
+  req.cake = cakeFactory.makeFromRequest(req.body);
+  next();
+};
