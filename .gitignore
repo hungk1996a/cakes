@@ -1,3 +1,4 @@
 config.js
-package.js
+package.json
 knexfile.js
+node_modules
